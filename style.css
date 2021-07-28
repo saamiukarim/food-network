@@ -1,0 +1,125 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.orange-text{
+    color: #FBA24F;
+}
+.top-banner{
+    width: 100% !important;
+    display: flex;
+    
+    align-items:center;
+    justify-content: center;
+    margin-top: 50px;
+   
+}
+#top-banner-header{
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: #FBA24F;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.second-section{
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+
+}
+.second-section-items{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.second-section-text{
+    width: 40%;
+    padding-left: 200px;
+}
+.recipes-section{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.item-cart img{
+    height: 150px;
+   padding-left: 100px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+.item-cart p{
+    text-align: justify;
+   margin-left: 25px;
+   margin-top: 10px;
+}
+.item-cart{
+    width: 33%;
+    padding-right: 100px;
+    box-shadow: 5px 5px 5px 5px gray;
+
+    background-color: honeydew;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+.food-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+.location-section{
+    margin-top: 50px;
+}
+.location-section h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.location-section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.order-section h1{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.order-detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    background-color: black;
+    margin-top: 200px;
+}
+.footer-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+small{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 100;
+    margin-top: 100px;
+    padding-bottom: 250px;
+}
